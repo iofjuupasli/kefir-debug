@@ -1,0 +1,29 @@
+{
+  "name": "kefir-debug",
+  "description": "Utility for dynamic enabling log of kefir observables",
+  "main": "kefir-debug.js",
+  "authors": [
+    "Tretyak Valery <iofjuupasli@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kefir",
+    "debug",
+    "log",
+    "frp"
+  ],
+  "homepage": "https://github.com/iofjuupasli/kefir-debug",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

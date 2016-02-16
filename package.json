@@ -1,0 +1,36 @@
+{
+  "name": "kefir-debug",
+  "version": "1.0.0-rc.1",
+  "description": "Utility for dynamic enabling log of kefir observables",
+  "main": "kefir-debug.js",
+  "scripts": {
+    "test": "node ./example",
+    "prepublish": "npm run build",
+    "build": "babel kefir-debug.es6 -o kefir-debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iofjuupasli/kefir-debug.git"
+  },
+  "keywords": [
+    "kefir",
+    "debug",
+    "log",
+    "frp"
+  ],
+  "author": "Tretyak Valery <iofjuupasli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iofjuupasli/kefir-debug/issues"
+  },
+  "homepage": "https://github.com/iofjuupasli/kefir-debug#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-eslint": "^4.1.8",
+    "babel-plugin-transform-es2015-modules-umd": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^2.1.0",
+    "kefir": "^3.2.0"
+  }
+}
