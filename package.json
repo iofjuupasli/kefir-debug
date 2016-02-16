@@ -1,6 +1,6 @@
 {
   "name": "kefir-debug",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "Utility for dynamic enabling log of kefir observables",
   "main": "kefir-debug.js",
   "scripts": {
